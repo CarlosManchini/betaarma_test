@@ -46,7 +46,6 @@ simu.barma <- function(n,phi=NA,theta=NA,beta=NA,X=NA,
   if(linktemp == "aoz"){
 
     if(is.na(lambda)) stop(paste("Aranda-Ordaz parameter (lambda) must be defined"))
-    # if(is.na(prec)) stop(paste("Precision parameter (prec) must be defined"))
     # source("aux_aoz.r")
     {
       linkfun.aoz <- function(mu,lambda) {
